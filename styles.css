@@ -1,0 +1,140 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  width: 440px;
+  margin: 10px auto;
+  background-color: #fff;
+  gap: 0%;
+  border: 3px solid #000;
+}
+.modes {
+  display: grid;
+  height: 30px;
+  grid-template-columns: 1fr 100px 100px;
+  column-gap: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  align-content: center;
+}
+.data-mode {
+  padding: 7px;
+  font-size: 14px;
+}
+.buy-data {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 7px;
+}
+.switch-mode {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 7px;
+}
+.facebook {
+  display: grid;
+  grid-template-columns: 1fr 35px 35px 35px;
+  height: 50px;
+  align-content: center;
+}
+.fb {
+  font-size: 30px;
+  font-weight: bolder;
+  color: #1c7ed6;
+  font-family: sans-serif;
+  margin-left: 5px;
+}
+.icons {
+  height: 24px;
+  width: 24px;
+  stroke: #000;
+}
+
+.icon-bar {
+  display: grid;
+  grid-template-columns: 72px 72px 72px 72px 72px 72px;
+  height: 40px;
+  justify-content: center;
+  border-bottom: 1px solid #000;
+}
+.icons-home {
+  height: 26px;
+  width: 26px;
+  fill: #000;
+  border-bottom: 3px solid #808080;
+}
+.dp-photo {
+  height: 30px;
+  width: 30px;
+  border-radius: 20px;
+}
+.question {
+  display: grid;
+  grid-template-columns: 45px 315px 25px;
+  column-gap: 15px;
+  justify-content: center;
+  height: 40px;
+  align-content: center;
+  border-bottom: 5px solid #c0c0c0;
+  padding-top: 13px;
+}
+.paragraph {
+  border: 1px solid gainsboro;
+  border-radius: 60px;
+  padding: 10px;
+  height: 10px;
+  font-size: 14px;
+}
+.gallery-icon {
+  padding-top: 5px;
+}
+.dp-pic {
+  height: 40px;
+  width: 40px;
+  border-radius: 40px;
+}
+.reels {
+  display: grid;
+  grid-template-columns: 130px 130px 130px;
+  column-gap: 17px;
+  height: 257px;
+  margin-top: 12px;
+  justify-content: center;
+  border-bottom: 5px solid #c0c0c0;
+}
+.reel-1 {
+  border-radius: 13px;
+}
+.reel-2 {
+  border-radius: 13px;
+}
+.reel-3 {
+  border-radius: 13px;
+}
+.post {
+  display: grid;
+  grid-template-columns: 45px 270px 30px 30px;
+  gap: 15px;
+  margin: 9px 10px;
+}
+.details {
+  margin: 5px 8px;
+}
+.paragraph2 {
+  font-size: 12px;
+}
+
+.perfume {
+  margin: 5px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
